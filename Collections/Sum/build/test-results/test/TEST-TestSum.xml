@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSum" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-10T22:25:33" hostname="raleigh-Z170X-UD5" time="0.015">
+  <properties/>
+  <testcase name="testGetTotalOrderPrice" classname="TestSum" time="0.015"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
