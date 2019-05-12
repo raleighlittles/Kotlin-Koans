@@ -5,4 +5,4 @@ jdk:
   - oraclejdk8
 
 script:
-  - ./gradlew wrapper --gradle-version 5.4.1 build --scan -s
+  - ./gradlew build --scan -s
