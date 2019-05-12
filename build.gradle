@@ -12,6 +12,16 @@ buildscript {
     }
 }
 
+plugins {
+    id("com.gradle.build-scan") version "2.1" 
+}
+
+buildScan {
+    termsOfServiceUrl = "https://gradle.com/terms-of-service"
+    termsOfServiceAgree = "yes"
+}
+
+
 def printOutput(def output) {
     return tasks.create("printOutput") {
         for (line in output.toString().readLines()) {
@@ -97,11 +107,3 @@ task wrapper(type: Wrapper) {
   gradleVersion = '4.10'
 }
 
-plugins {
-    id("com.gradle.build-scan") version "2.1" 
-}
-
-buildScan {
-    termsOfServiceUrl = "https://gradle.com/terms-of-service"
-    termsOfServiceAgree = "yes"
-}
