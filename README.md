@@ -1,4 +1,4 @@
-![build-badge](https://travis-ci.org/raleighlittles/KotlinKoansSolutions.svg?branch=master)
+![build-badge](https://travis-ci.org/raleighlittles/Kotlin-Koans.svg?branch=master)
 
 # About
 
